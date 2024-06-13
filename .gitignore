@@ -125,3 +125,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore build output
+build/
+
+# Ignore docusaurus
+.docusaurus/
