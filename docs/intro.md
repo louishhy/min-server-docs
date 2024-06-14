@@ -1,47 +1,33 @@
 ---
-sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Welcome to the min-server project!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The `min-server` project aims to provide a series of minimalistic implementations of common server-side applications 
+to help beginners understand the underlying logic of APIs by providing easy-to-understand code and documentations.
 
-## Getting Started
+## Subprojects
+### [MinHTTP](minhttp)
+[Flask](https://flask.palletsprojects.com/en/3.0.x/)-like, minimalistic implementation of HTTP server from the `socket` level using Python.
 
-Get started by **creating a new site**.
+### MinWebSocket
+🥳 To be implemented, stay tuned!
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Why `min-server`?
+Modern server applications and frameworks are extremely sophisticated. Although those careful engineering makes them powerful and production-ready, it can be overwhelming for beginners to understand the underlying logic of server applications from the source code.
 
-### What you'll need
+That's why we started `min-server`! The aim of `min-server` is to cut away the complexity and focus on the core flow of server applications, such as connection establishments, routing and handling messages. By understanding the basics with the source code and documentation, you can dive into more sophisticated frameworks with ease.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+:::warning[IMPORTANT!]
+Because of the reasons mentioned above, `min-server` is _not_ designed for production use. Some mechanisms such as authentication are largely simplified or even omitted. 
 
-## Generate a new site
+Do _not_ use `min-server` in production environments!
+:::
 
-Generate a new Docusaurus site using the **classic template**.
+Because of the reasons mentioned above, `min-server` is _not_ designed for production use. Some mechanisms such as authentication are largely simplified or even omitted. 
 
-The classic template will automatically be added to your project after you run the command:
+Do _not_ use `min-server` in production environments.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Contributing
+🥳 We welcome contributions to `min-server`! If you have any ideas or suggestions, feel free to open an issue or pull request.
